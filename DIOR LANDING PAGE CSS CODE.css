@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(90deg,rgb(246, 137, 155),color-mix(in lch,black 70%,rgb(251, 163, 178) ));
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    position: absolute;
+    top: 0 px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin:0px 5px;
+}
+.menu a:hover{
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+.left{
+    flex-basis: 40%;
+}
+.right{
+    flex-basis: 40%;
+}
+.right img{
+    width:80%
+}
+.left h1{
+    font-size: 4.5rem;
+}
+.left h2{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.left p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+.left button{
+    background-color: white;
+    color: black;
+    padding:10px 20px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.s-icon{
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+}
+.s-icon img{
+    width:120px;
+}
+.logo{
+    font-size: 40px;
+}
